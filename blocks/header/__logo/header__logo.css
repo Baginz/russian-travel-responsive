@@ -1,12 +1,6 @@
-.header__logo {
+@media screen and (max-width: 576px) {
+  .header__logo {
     width: 142px;
     height: 42px;
-    object-fit: contain;
-}
-
-@media (min-width: 768px) {
-    .header__logo {
-        width: 176px;
-        height: 52px;
-    }
+  }
 }
